@@ -21,10 +21,10 @@ information extraction task.
 
 Run the script on a file containing the text that you wish to analyze.
 The text must be encoded in UTF8 or ASCII:
-    $ python main.py <path-to-text-file>
+    $ python blog.py <path-to-text-file>
 
 Try this on a sample text in the resources directory:
-    $ python main.py resources/obama_wikipedia.txt
+    $ python blog.py resources/obama_wikipedia.txt
 """
 
 import argparse

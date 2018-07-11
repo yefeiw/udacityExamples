@@ -13,7 +13,7 @@
 # limitations under the License.
 
 """
-Sample backend module deployed by backend.yaml and accessed in main.py
+Sample backend module deployed by backend.yaml and accessed in blog.py
 """
 
 import webapp2

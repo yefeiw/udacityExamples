@@ -59,6 +59,7 @@ class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/html'
         self.response.write(form)
+
     def post(self):
         self.response.out.write("Thanks! That is a totally valid day")
 

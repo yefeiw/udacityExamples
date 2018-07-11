@@ -24,12 +24,12 @@ information on the images' entities to STDOUT. You can also further query
 the generated sqlite3 database; see the README for more information.
 
 Run the script on a directory of images to do the analysis, E.g.:
-    $ python main.py --input_directory=<path-to-image-directory>
+    $ python blog.py --input_directory=<path-to-image-directory>
 
 You can try this on a sample directory of images:
     $ curl -O http://storage.googleapis.com/python-docs-samples-tests/language/ocr_nl-images.zip
     $ unzip ocr_nl-images.zip
-    $ python main.py --input_directory=images/
+    $ python blog.py --input_directory=images/
 
 """  # noqa
 
